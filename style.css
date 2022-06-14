@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+}
+
+/*PRIMEIRA PARTE*/
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.title{
+    justify-items: left;
+}
+
+.links{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*SEGUNDA PARTE*/
+
+.info {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 150px;
+}
+
+.bodyinfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    gap: 50px;
+}
+
+.primeirobotao {
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 0px;
+    align-self: start;
+}
+
+.imageinfo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+/*TERCEIRA PARTE*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.imagecontainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+
+.textcontainer {
+    text-align: center;
+}
+
+img {
+    border: 5px solid blue;
+}
+
+/*QUARTA PARTE*/
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 130px;
+}
+
+.authorquote {
+    font-size: 20px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*QUINTA PARTE*/
+
+.newsletter {
+    padding: 100px;
+}
+
+.textnewsletter {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    padding: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+.segundobotao {
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    border-radius: 4px;
+    align-self: start;
+    border-color: white;
+}
+
+/*SEXTA PARTE*/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px;
+    justify-content: center;
+}
+
+.textfoot {
+    color: white;
+}
